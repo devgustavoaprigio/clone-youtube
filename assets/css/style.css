@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+body {
+    position: relative;
+    background: #f0f0f0;
+    font-family: 'roboto', 'sans-serif';
+}
+/* INICIO MENU PRINCIPAL*/
+.menu-site {
+    position: fixed;
+    top: 0;
+    left: o;
+    background: #FFF;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5vw;
+}
+
+/*INCIO MENU HAMBURGUER*/
+.hamburguer-btn {
+    width: 20px;
+    height: 10px;
+    position: relative;
+    cursor: pointer; /* cursor -quando passa o cursor ele vira uma maozinha*/
+    /*background: #000;*/
+}
+
+.hamburguer-btn span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #000;
+
+}
+
+/*AQUI É UM SELETOR*/
+.hamburguer-btn span:nth-child(1) {
+    top:0;
+}
+.hamburguer-btn span:nth-child(3) {
+    top:100%;
+}
+
+/* FINAL HAMBURGUER*/
+
+/* INICIO LOGO DO SITE*/
+.logo{
+    height: 30px;
+    margin: -10px 30px 0;
+
+}
+
+/* INICIO BUSCA DO SITE*/
+.busca-site{
+    position: relative;
+    max-width: 500px;
+    margin: 10px auto;
+    width: 50%;
+    height: 35px;
+    display: flex;
+}
+
+/* CSS DO IMPUT*/
+.busca-imput{
+    width: 85%;
+    height: 100%;
+    border: 1px solid #dbdbdb;
+    padding: 0 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.busca-btn {
+    width: 15%;
+    height: 100%;
+    background: #F0F0F0;
+    border: 2px solid #dbdbdb;
+    padding: 5px 0;
+    border-left: none;
+}
+
+.busca-btn img {
+    height: 100%;
+}
+
+/* INICIO MENU USUARIO*/
+.usuario-menu{
+    height: 35px;
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+
+}
+
+..usuario-menu .icone {
+    height: 80%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.usuario-perfil{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.usuario-perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* INICIO BARRA LATERAL DO SITE*/
+
+.barra-lateral{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    min-width: 250px;
+    width: 250px;
+    height: calc(100vh - 60px);
+    background: #FFF;
+    padding-right: 10px;
+
+}
+
+.links {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500px;
+    text-decoration: none;
+    
+}
+
+.links img{
+    height: 20px;
+    margin-right: 20px;
+
+}
+
+.links:hover, /*quando passa o mouse cria uma animacao barra lateral*/
+.links.ativo{
+    background: rgba(0, 0, 0, 0.1);
+
+}
+
+.divisor {
+    border: none;
+    border-botton: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 20px, 0;
+}
