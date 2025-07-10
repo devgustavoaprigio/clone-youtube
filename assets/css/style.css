@@ -105,7 +105,7 @@ body {
 
 }
 
-..usuario-menu .icone {
+.usuario-menu .icone {
     height: 80%;
     margin-right: 20px;
     cursor: pointer;
@@ -161,14 +161,43 @@ body {
 
 }
 
-.links:hover, /*quando passa o mouse cria uma animacao barra lateral*/
+.links:hover, 
 .links.ativo{
     background: rgba(0, 0, 0, 0.1);
 
 }
 
-.divisor {
+.divisor{
     border: none;
-    border-botton: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin: 20px, 0;
+}
+
+/*FIM DA BARRA LATERAL*/
+
+.filtros{
+    position: fixed;
+    top: 60px;
+    left: 250px;
+    width: calc(100% - 250%);
+    background: #FFF;
+    border-top: solid #dbdbdb;
+    border-bottom: solid #dbdbdb;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.filtros::-webkit-scrollbar{
+    display: none;
+
+}
+
+.opcoes-filtros{
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #f0f0f0;
 }
