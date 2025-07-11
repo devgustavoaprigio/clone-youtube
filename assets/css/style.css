@@ -174,6 +174,7 @@ body {
 }
 
 /*FIM DA BARRA LATERAL*/
+
 /*INICIO FILTROS SITE*/
 
 .filtros{
@@ -191,8 +192,9 @@ body {
     overflow-y: hidden;
 }
 
+/*AQUI ELE ESCONDE O SCROLLBAR*/
 .filtros::-webkit-scrollbar{
-    display: none;
+    display: none; 
 
 }
 
@@ -228,3 +230,42 @@ body {
     overflow: hidden;
 
 }
+
+.video{
+    min-height: 250px;
+    height: auto;
+}
+
+.miniatura{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.conteudo-video{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.canal-icone{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.titulo-video{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.nome-do-canal{
+    font-size:14px;
+    margin: 2px 0;
+    color: #979797;
+}
+
+/*FIM DO VIDEO DO SITE*/
