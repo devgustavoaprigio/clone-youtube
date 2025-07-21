@@ -5,7 +5,8 @@ Este projeto é um clone da interface do YouTube desenvolvido utilizando apenas 
 ## 📸 Preview
 
 ![Preview do Projeto]
-<img width="1352" height="596" alt="image" src="https://github.com/user-attachments/assets/f7145fb6-6b7c-4fb6-87e0-8e06461b55b5" />
+<img width="1351" height="607" alt="image" src="https://github.com/user-attachments/assets/7b77daea-78c2-44fa-b55e-f491fdf90705" />
+
 
 
 
